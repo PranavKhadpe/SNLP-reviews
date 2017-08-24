@@ -9,7 +9,7 @@ Script to separate real and fake reviews in a simple, naive way.
 
 Use it as 
 ```
-python read_file.py folder_name file_name'
+python read_file.py folder_name file_name
 ```
 
 where file_name is the name of the text file that contains the real and fake reviews
