@@ -1,8 +1,9 @@
+#Takes as input the csv file review.csv and writes output to tokenised.json(which just has an additional column for token count
 import pandas as pd
 import numpy as np
 import nltk
 from nltk import word_tokenize
-df = pd.read_csv('one_review.csv')
+df = pd.read_csv('review.csv')
 df['token_count'] = pd.Series(0, index=df.index)
 j = len(df.index)
 print df
