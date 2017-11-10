@@ -23,3 +23,10 @@ Usage:
 ```
 python read_file.py <node_name> <input_text_file_name> <output_csv_file_name>
 ```
+
+### ManyClassifiers.py -
+Runs simple classifiers
+
+### Observing_Dist.py
+Tells you which were predicted correctly, off by 1,2 and 3
+
